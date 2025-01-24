@@ -1,0 +1,12 @@
+body {
+    background-color: #b814b8;
+}
+
+.wrapper {
+    /* width: 50%; */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-image: url("title.svg") */
+}
