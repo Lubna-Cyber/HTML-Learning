@@ -46,22 +46,25 @@ h2{
 
 .creativity{
     border: 2px solid black;
-    height:350px;
+    height:500px;
     width: 500px;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    background-image: url('suzuka.png');
 }
 
 .creativity h3{
     font-size: 30px;
     text-align: center;
+    margin-bottom: 130px;
 }
 
 .img_1{
+    margin-top: 10px;
     height: 320px;
-    width: 80px;
+    width: 200px;
     align-items: center;
     justify-content: center;
 }
