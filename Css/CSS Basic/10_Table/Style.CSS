@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&display=swap');
+
+
+/* @font-face {
+    font-family: Chacha;
+    src: url(Gilroy-Regular.ttf);
+} */
+
+/* @font-face {
+    font-family: mukta;
+    src: url(Mukta-Regular.ttf);
+} */
+
+h1{ 
+    text-align: center;
+    font-family: mukta;
+}
+
+table{
+    border: 2px solid Red;
+    height: 500px;
+    width: 400px;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+td{
+    border: 2px solid green;
+}
+
+.orange{
+    background-color: orange;
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+}
+
+tr,td{
+    border-bottom: 5px Solid brown;
+}
+
+tr:hover:nth-child(Even)
+{
+    background-color:blanchedalmond;
+}
+
+tr:hover:nth-child(Odd)
+{
+    background-color:rgb(88, 194, 243);
+    color: blueviolet;
+}

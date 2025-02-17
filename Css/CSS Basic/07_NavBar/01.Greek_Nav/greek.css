@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    border: 2px solid rgb(75, 78, 214);
+    height: 200vh;
+}
+
+.top-header{
+    border: 1px solid grey;
+}
+
+.list1{
+    height: 50px;
+    /* border: 2px solid gray; */
+    text-align: center;
+    word-spacing:20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.list1>li{
+
+    display: inline;
+}
+
+.list1>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+ .button{
+    background-color:rgb(17, 17, 33);
+    color: white;
+    font-size: small;
+    height: 30PX;
+    width: 70PX;
+    border-radius: 5PX;
+    border-color: rgb(6, 6, 13);
+ }
+
+ .NavHeader{
+    height: 500px;
+    border: 2px solid rgb(191, 7, 123);
+ }
+ 
+ .list2{
+    padding-top: 10px;
+ }
+ 
+ .list2>li{
+    
+    display: inline;
+    padding: 3.5PX;
+ }
+
+ .list2>li a{
+    /* word-spacing: 12px; */
+    text-decoration: none;
+    color: black;
+ }
+
+ .content{
+    height: 800px;
+    border: 2px solid rgb(160, 146, 146);
+    background-color: rgb(148, 194, 194);
+}
+
+.content>h1{
+    position: sticky;
+    left: 400px;
+    top: 300px;
+    text-align: center;
+}
+
+.content> input{
+    position: sticky;
+    left: 430px;
+    top: 350px;
+    width: 500PX;
+    height: 50PX;
+
+}
+    
+
+.three_button{
+    position: sticky;
+    text-align: center;
+    padding: 2px;
+    top: 420px;
+    margin-top:10px;
+    height: 200px;
+}
+
+.three_button>button{
+    background-color:rgb(222, 138, 19);
+    font-size:small;
+}
+

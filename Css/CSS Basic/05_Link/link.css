@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type:none;
+}
+
+html,body{
+
+    width:100%;
+    height:100;
+}
+
+body{
+
+    overflow:hidden;
+}
+
+#main{
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+
+#nav ul{
+    height:20vh;
+    width:100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+#nav ul :hover{
+    color:red;
+    background-color:green;
+    border-radius: 120%;
+
+}
+
+

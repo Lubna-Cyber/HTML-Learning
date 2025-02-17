@@ -1,0 +1,11 @@
+background-color done
+background-image done
+background-repeat done
+background-attachment done
+background-position done
+background-size done
+
+
+background-origin
+background-clip
+background 

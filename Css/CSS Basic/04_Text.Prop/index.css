@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.red{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.green{
+    /* margin: 100px; */
+    margin-top: 20px;
+    padding-top: 50px;
+    margin-left: 100px;
+    height: 200px;
+    width: 400px;
+    border: 20px solid green;
+    
+    /* outline-style: double;
+    outline-width: 10px;
+    outline-color: blue; */
+
+    outline: 5px double blue;
+    outline-offset: 20px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+
+    /* text-decoration-line: underline;
+    text-decoration-style:wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-color: blue; */
+    text-decoration: underline wavy 2px blue;
+
+    text-shadow: 5px 2px 2px blue;
+
+}
+.text_prop{
+    color: blue;
+    /* text-align-last: right; */
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 40px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    /* white-space: nowrap; */
+    line-height: 50px;
+
+}
+.firstletter{
+    font-size: 50px;
+    color: red;
+}

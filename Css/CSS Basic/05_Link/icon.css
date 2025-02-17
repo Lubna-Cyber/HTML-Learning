@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:	border-box;
+    }
+
+html,body {
+    height:	100%;
+    Width:	100%;
+    font-size: 20px;
+
+}
+
+ul{
+    
+    text-align: center;
+    margin-top: 10px;
+    }
+
+ul li{
+    display: inline;
+    gap: 20px;   
+}
+
+li a{
+    text-decoration: none;   
+}
+
+a.link
+{
+    color: blue;
+}
+
+a.visited
+{
+    color:yellowgreen;
+}
+
+a.hover 
+{
+    color:green;
+}
+
+a.active
+{
+    color: cornflowerblue;
+}

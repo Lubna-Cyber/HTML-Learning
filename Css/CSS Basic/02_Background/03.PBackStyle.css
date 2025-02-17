@@ -1,0 +1,50 @@
+h1{
+    background-color: rgb(10, 5, 19);
+    text-align: center; color: chartreuse;
+}
+
+#pic1
+
+{
+    background-color:aquamarine;
+    background-size: 100% 100%;
+}
+
+.pic2
+{
+    background-image: url('img2.jpg');
+    background-size: 100% 100%;
+    Height: 660px;
+
+}
+.pic3
+{
+    background-image: url('Girl.jpg');
+    background-size: 100% 100%;
+    Height: 660px;
+    background-attachment: fixed;
+}
+
+.pic4
+{
+    background-image: url('img3.jpg');
+    background-size: 100% 100%;
+    Height: 660px;
+}
+
+.pic5
+{
+    background-image: url('OIP.jpg');
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: Top center;
+
+    height: 660px;
+}
+
+.pic6
+{
+background: url('img4.jpg') 100% 100% no-repeat; 
+height: 659px;
+
+}
