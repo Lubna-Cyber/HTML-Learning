@@ -80,7 +80,7 @@
 
 .content> input{
     position: sticky;
-    left: 430px;
+    left: 510px;
     top: 350px;
     width: 500PX;
     height: 50PX;
@@ -98,7 +98,10 @@
 }
 
 .three_button>button{
-    background-color:rgb(222, 138, 19);
-    font-size:small;
+    background-color:rgb(240, 165, 60);
+    font-size:medium;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
 }
 
