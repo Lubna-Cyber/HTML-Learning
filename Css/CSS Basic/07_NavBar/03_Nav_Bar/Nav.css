@@ -23,12 +23,14 @@
     list-style-type: none;
     text-align: center;
     font-size:x-large;
+    font-weight: 200px;
     background-color: rgb(40, 160, 120);
    }
 
 .list>li{
     display: inline;
     padding: 20px;
+
 
     
 }
@@ -52,4 +54,15 @@
 
 .list>li a:active{
     color: rgb(12, 3, 111);
+}
+
+
+.para{
+    margin-top: 10px;
+    height: 500px;
+    border: 5px solid rgb(40, 160, 120);
+    font-size:30px;
+    text-align: justify;
+    padding: 15px 15px 10px 15px;
+    background-color:antiquewhite;
 }
