@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let income = parseInt(prompt('Enter your income'))
+        // let age = parseInt(prompt('Enter your age'))
+        // let gender = prompt('enter gender')
+
+        // let tax=0;
+        // if(income<=250000){
+        //     tax=0;
+        // }
+
+        // else if(income>250000 && income>=500000){
+        //     if(age>=60)
+        //         tax=5;
+        //     else{
+        //         tax=10;
+        //     }
+        // }
+
+        // else if(income>500000 && income>=1000000){
+        //     if(age>=60)
+        //         tax=20;
+        //     else{
+        //         tax=25;
+        //     }
+        // }
+
+        // else{
+        //     if(age>=60){
+        //         tax=30;
+        //     }
+        //     else{
+        //         tax=35;
+        //     }
+        // }
+
+        // taxAmount=(income*tax)/100;
+
+        // //female ke liye 5% rebate
+
+        // if(gender ==='female'){
+        // let rebate=(taxAmount*5)/100;
+        // taxAmount-=rebate;
+
+        //     console.log('tax before rebate'+(income*tax)/100);
+        //     console.log('tax after rebate'+taxAmount);
+        // }
+
+        // else{
+        //     console.log('Total Tax:'+ taxAmount);
+        // }
+
+
+        // Ques 2.
+        
+        let User = prompt('enter your name');
+        let Amount = prompt('enter the total amount');
+
+        if(Amount<=5000){
+            discount=0;
+        }
+        
+        else if(Amount>=5001 && Amount<=10000){
+            discount=10;
+        }
+
+        else if(Amount>=10001 && Amount<=20000){
+            discount=20;
+        }
+
+        else{
+            discount=30;
+        }
+
+        let totalAmount=(Amount*discount)/100;
+
+        //For Premium Member//       
+            
+        if(User==='Premium member'){
+            
+        let addionalDiscount=(totalAmount*5)/100;
+        let Premium_member=totalAmount-addionalDiscount;
+        
+        console.log('For Premium member:' + Premium_member);
+        
+        }
+
+        else{
+            console.log('For Normal User'+ totalAmount);
+            
+        }
+
+    </script>
+</body>
+</html>
