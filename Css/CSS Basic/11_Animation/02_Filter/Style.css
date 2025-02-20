@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:	border-box;
+}
+
+html,body {
+    height:	100%;
+    Width:	100%;
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    /* box-shadow: 10px 10px 20px black; */
+    filter:drop-shadow(10px 10px 20px rgb(19, 18, 18));
+}
+
+.img1{
+    filter:drop-shadow(10px 10px 20px rgb(227, 215, 215)); 
+}

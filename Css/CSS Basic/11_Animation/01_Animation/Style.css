@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:	border-box;
+}
+
+html,body {
+    height:	100%;
+    Width:	100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 200px;
+    Width: 200px;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+
+    
+    color:brown;
+    background-color: rgb(198, 19, 19);
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes colorchange{
+    0% {
+        background-color:aqua;
+        transform: rotate3d(180deg);
+        
+    }
+
+    50% {
+        background-color:rgb(212, 199, 17);
+        transform: rotate3d(180deg);
+        border-radius: 20px;
+    }
+
+    100% {
+        background-color:rgb(227, 28, 177);
+        transform: rotate3d(180deg);
+    }
+
+}
