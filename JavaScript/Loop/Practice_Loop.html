@@ -8,28 +8,69 @@
 <body>
     <script>
 
-    // Ques: A traffic light counts down from 10 seconds. If the time is 5 seconds, the light turns yellow. If the time is 0, 
+    // Ques-1: A traffic light counts down from 10 seconds. If the time is 5 seconds, the light turns yellow. If the time is 0, 
     // the light turns red. Otherwise, it remains green.
     //Write a for loop to simulate this countdown.
     
-    for (let light=10; light>=0; light--)
-        {
-            console.log(light)
-        if(light==5)
-        {
-            console.log('yellow');            
-        }
+    // for (let light=10; light>=0; light--)
+    //     {
+    //         console.log(light)
+    //     if(light==5)
+    //     {
+    //         console.log('yellow');            
+    //     }
 
-        else if(light==0)
-        {
-            console.log('red');
-        }
+    //     else if(light==0)
+    //     {
+    //         console.log('red');
+    //     }
 
-        else{
-            console.log('green');
-        }
-        }
+    //     else{
+    //         console.log('green');
+    //     }
+    //     }
+
+        //Ques-2: A toll booth counts the number of cars passing through. If the number of cars reaches 5, the toll worker takes a short break. If the count reaches 10, the toll booth closes for maintenance.
+        //Write a JavaScript program using a while loop to simulate this process.
+
+        let i=0;
+        while(i<=10){
+            console.log(i);
+            i++
+            if(i<=5){
+                console.log('the toll worker takes a short break');    
+            }
+            else{
+                console.log('the toll booth closes for maintenance');                
+            }
+            }
+
+
+        //Ques-3: A water dispenser is used 7 times. If the usage count reaches 3, a "low water level" warning appears. If the count     reaches 6, it shows "Almost empty." If the count reaches 7, it stops dispensing.
+        // Write a do-while loop to simulate this process.
+
+        // let water=0;
+        // do{
+        //     console.log(water);   
         
+
+        // if(water>=3){
+        //     console.log('low water level');  
+        //     }
+        // else if(water>=6){
+        //     console.log('Almost empty');
+        //     } 
+        // else{            
+        //     console.log('Stop Dispensing');
+        //     }   
+            
+        //     water++
+        // }
+
+        // while(water<=7)
+
+        
+
     </script>
 
 </body>
