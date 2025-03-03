@@ -28,31 +28,21 @@
 
 
     //invite friends for party 
-    // let frdName=["Mona","Riya","Simmi","Ranju","Pawan","Kunal","Deepu","Pankaj","Aditiya","Tushar",     "Sanjay","Kajal","Riyansh","Gungun","Karan","Sonu", "Himanshi", "Nancy","Bhavishaya", "Keshav"]
-    // let Name=prompt("Enter Your Name")
-    // for(Name=0; Name<= frdName.length; Name++){
     
-    //     if(Name=="Tushar"){
-    //         document.write(frdName[i]+" Your invite for party")
-    //     }
-    //     else{
-    //         document.write("Your Not invited")
-    //     }
-    // }
-
-
-    let frdName=["Mona","Riya","Simmi","Ranju","Pawan","Kunal","Deepu","Pankaj","Aditiya","Tushar",     "Sanjay","Kajal","Riyansh","Gungun","Karan","Sonu", "Himanshi", "Nancy","Bhavishaya", "Keshav"];
+    let frdName=["Mona","Riya","Simmi","Ranju","Pawan","Kunal","Deepu","Pankaj","Aditiya","Tushar","Sanjay","Kajal","Riyansh","Gungun","Karan","Sonu", "Himanshi", "Nancy","Bhavishaya", "Keshav"];
 
     let nameCheck = prompt("Enter Your Name");
 
     for(let i = 0; i < frdName.length; i++){
         if( frdName[i] === nameCheck ){
-            document.write("Your invited for the Party")
+            document.write("Hello",nameCheck+"Your invited for the Party")
             break;
         }
         else if(i===frdName.length-1 ){
         document.write("name not available")
+        break;        
     }
+        }
 
     </script>
 </body>
