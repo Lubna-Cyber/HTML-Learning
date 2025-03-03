@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Array Declaration</h1>
+    <script>
+    //     let studentsName=["Sameer","Kavita","Rahul","Ravi"]
+    //     document.write(studentsName)
+    //     document.write("<br>") 
+    //     document.write(studentsName[0])
+    //     document.write("<br>")
+    //     document.write(studentsName[1])
+    //     document.write("<br>")
+    //     document.write(studentsName[2])
+    //     document.write("<br>")
+
+    //     for(let i=0; i<4; i++)
+    // {
+    //     document.write(studentsName[i])
+    //     document.write("<br>")
+        
+    // }
+
+
+    //invite friends for party 
+    // let frdName=["Mona","Riya","Simmi","Ranju","Pawan","Kunal","Deepu","Pankaj","Aditiya","Tushar",     "Sanjay","Kajal","Riyansh","Gungun","Karan","Sonu", "Himanshi", "Nancy","Bhavishaya", "Keshav"]
+    // let Name=prompt("Enter Your Name")
+    // for(Name=0; Name<= frdName.length; Name++){
+    
+    //     if(Name=="Tushar"){
+    //         document.write(frdName[i]+" Your invite for party")
+    //     }
+    //     else{
+    //         document.write("Your Not invited")
+    //     }
+    // }
+
+
+    let frdName=["Mona","Riya","Simmi","Ranju","Pawan","Kunal","Deepu","Pankaj","Aditiya","Tushar",     "Sanjay","Kajal","Riyansh","Gungun","Karan","Sonu", "Himanshi", "Nancy","Bhavishaya", "Keshav"];
+
+    let nameCheck = prompt("Enter Your Name");
+
+    for(let i = 0; i < frdName.length; i++){
+        if( frdName[i] === nameCheck ){
+            document.write("Your invited for the Party")
+            break;
+        }
+        else if(i===frdName.length-1 ){
+        document.write("name not available")
+    }
+
+    </script>
+</body>
+</html>
