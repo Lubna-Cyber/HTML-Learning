@@ -7,7 +7,7 @@
 function Change()
 {
     let text=document.getElementById("text")
-    text.style.color="blue";
+    text.style.color="Brown";
 }
 
 function fontItalic()
