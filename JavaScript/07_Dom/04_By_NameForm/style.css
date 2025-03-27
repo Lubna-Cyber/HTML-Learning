@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 230px;
+    width: 400px;
+    background-color: rgb(239, 249, 250);
+    border: 2px solid rgb(14, 14, 14);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+.form>div{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.btn{
+    text-align: center;
+    gap: 20px;
+    }
+
+.btn>input{
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 16px ;
+    cursor: pointer;
+    background-color: #10104e;
+    color: #fff;
+    }
+
+.input{
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(27, 27, 28);
+    border-radius: 15px;
+    padding-right:18px ;
+    font-size: 16px ;
+    text-align: center;
+}
+
+/* Popup box */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    max-width: auto;
+    border-radius: 10px;
+
+}
+
+/* forlogin popup */
+.success{
+    background-color: rgb(11, 81, 25);
+    border: 2px solid rgb(14, 13, 14);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 1;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+.failed{
+    /* margin-left: 300px; */
+    background-color: red;
+    border: 2px solid rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 10px;
+    /* z-index: 1; */
+    width: 160px;
+    color: white;
+    text-align: center;
+}
+
+#space1{
+    width: 100px;
+}

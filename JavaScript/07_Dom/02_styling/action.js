@@ -21,7 +21,7 @@ function fontItalic()
 function styleBold()
 {
     let textarea=document.getElementById("text");
-    textarea.style.fontWeight="bold";
+    textarea.style.fontWeight="bold"; 
 }
 
 function styleUnderline()
@@ -29,3 +29,12 @@ function styleUnderline()
     let textarea=document.getElementById("text");
     textarea.style.textDecoration="Underline";
 }
+    
+function clearText() 
+{
+    
+        let textarea=document.getElementById("text");
+        let text=textarea.innerText;
+        textarea.value="";
+}
+  
