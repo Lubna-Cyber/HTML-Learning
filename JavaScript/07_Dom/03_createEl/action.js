@@ -20,8 +20,8 @@
     let div = document.createElement('div')
 
     div.style.width="400px";
-    div.style.height = "200px"
-    div.style.backgroundColor="orange"
+    div.style.height = "200px";
+    div.style.backgroundColor="orange";
     document.body.appendChild(div)
     }
 
@@ -37,8 +37,8 @@
     let div = document.createElement('div')
 
     div.style.width="200px";
-    div.style.height = "200px"
-    div.style.backgroundColor="black"
+    div.style.height = "200px";
+    div.style.backgroundColor="black";    
     document.body.appendChild(div)
     }
 
@@ -49,7 +49,7 @@
     })
 
     function createCircle()
-    {
+    {  
     let div = document.createElement('div')
     
     div.style.width="200px";

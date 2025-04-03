@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        .quiz-container { max-width: 500px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; }
+        .option { display: block; margin: 10px 0; }
+        .btn { padding: 10px; margin-top: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h2 id="question">Question comes here...</h2>
+        <div id="options"></div>
+        <button class="btn" onclick="nextQuestion()">Next</button>
+        <h3 id="result"></h3>
+    </div>
+
+    <script>
+        const quizData = [
+            { question: "What is the capital of India", options: ["Kolkata", "Banglore", "Delhi", "Bihar"], answer: "Delhi" },
+            { question: "Which is the largest planet?", options: ["Earth", "Mars", "Jupiter", "Saturn"], answer: "Jupiter" },
+            { question: "What is 5 + 3?", options: ["5", "8", "12", "15"], answer: "8" }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function loadQuestion() {
+            const questionData = quizData[currentQuestionIndex];
+            document.getElementById("question").textContent = questionData.question;
+            const optionsContainer = document.getElementById("options");
+            optionsContainer.innerHTML = "";
+
+            questionData.options.forEach(option => {
+                const button = document.createElement("button");
+                button.textContent = option;
+                button.classList.add("option", "btn");
+                button.onclick = () => checkAnswer(option);
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function checkAnswer(selectedOption) {
+            const correctAnswer = quizData[currentQuestionIndex].answer;
+            if (selectedOption === correctAnswer) {
+                score++;
+            }
+            document.getElementById("result").textContent = `Score: ${score}/${quizData.length}`;
+            nextQuestion();
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizData.length) {
+                loadQuestion();
+            } else {
+                document.getElementById("question").textContent = "Quiz Completed!";
+                document.getElementById("options").innerHTML = "";
+                document.querySelector(".btn").style.display = "none";
+            }
+        }
+
+        loadQuestion();
+    </script>
+
+</body>
+</html>
